@@ -1,0 +1,140 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
+  <diagram name="Trang-1" id="EBb0RMvfIJn_vuKNoD4f">
+    <mxGraphModel dx="1042" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CmBmVaw6g7TKGHd4V151-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CmBmVaw6g7TKGHd4V151-1" target="CmBmVaw6g7TKGHd4V151-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-1" value="bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CmBmVaw6g7TKGHd4V151-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-3" value="nhập thông tin hành khách&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="20" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-4" value="&lt;b&gt;Thiết bị:&lt;/b&gt; &lt;b&gt;Bàn phím, chuột&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-5" value="&lt;b&gt;Phần mềm:&lt;/b&gt; Giao diện người dùng (UI)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.432;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CmBmVaw6g7TKGHd4V151-6" target="CmBmVaw6g7TKGHd4V151-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-6" value="xử lý thông tin vừa nhập và truy vấn cơ sở dữ liệu để tìm kiếm các chuyến bay phù hợp." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="15" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-8" value="&lt;b&gt;Phần mềm:&lt;/b&gt; &lt;b&gt;Hệ thống quản lý vé máy bay&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="20" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-9" value="&lt;b&gt;Thiết bị:&lt;/b&gt; &lt;b&gt;Máy chủ ứng dụng, bộ xử lý trung tâm (CPU)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="75" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CmBmVaw6g7TKGHd4V151-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-10" value="Hiển thị kết quả&lt;div&gt;Hệ thống trả về danh sách các chuyến bay, giá vé, và các thông tin liên quan&amp;nbsp;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="180" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-12" value="&lt;b&gt;Thiết bị:&lt;/b&gt; &lt;b&gt;Màn hình&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-15" value="&lt;b&gt;Phần mềm:&lt;/b&gt; Giao diện người dùng hiển thị danh sách" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CmBmVaw6g7TKGHd4V151-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-16" value="&amp;nbsp;Lựa chọn chuyến bay" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-20" value="&lt;b&gt;Thiết bị:&lt;/b&gt; &lt;b&gt;Chuột, bàn phím, màn hình cảm ứng&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-21" value="&lt;b&gt;Phần mềm:&lt;/b&gt; Giao diện người dùng." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CmBmVaw6g7TKGHd4V151-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-22" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry y="170" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-24" value=" Nhập thông tin hành khách" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-27" value="Họ và tên&lt;div&gt;số điện thoại,email&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="230" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CmBmVaw6g7TKGHd4V151-28" target="CmBmVaw6g7TKGHd4V151-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-28" value="Chọn phương thức thanh toán&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7.5" y="350" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-29" value="&lt;b&gt;Thiết bị:&lt;/b&gt; &lt;b&gt;Bàn phím, chuột&lt;/b&gt;." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CmBmVaw6g7TKGHd4V151-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CmBmVaw6g7TKGHd4V151-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-32" value="quyết định thanh toán" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CmBmVaw6g7TKGHd4V151-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-33" value="Xác nhận và xuất vé" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-34" value="Xử lý giao dịch lỗi&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-37" value="thanh toán thất bại" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-38" value="thanh toán thành công" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="430" width="72.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CmBmVaw6g7TKGHd4V151-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-39" value="Xác nhận và xuất vé" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="620" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CmBmVaw6g7TKGHd4V151-41" value="kết thúc&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="750" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
