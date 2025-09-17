@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.3">
+  <diagram name="Trang-1" id="JUNnJg3u21yDyNhJxaxq">
+    <mxGraphModel dx="1042" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_qfQpiFz5pyAwzC_5YSm-1" value="Nhập điểm kiểm tra của học sinh vào hệ thống&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="290" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_qfQpiFz5pyAwzC_5YSm-2" value="INPUT ( quản lý điểm của học sinh)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_qfQpiFz5pyAwzC_5YSm-5" value="&lt;br&gt;Hệ thống tự động tính điểm trung bình, xếp loại học lực dựa trên các tiêu chí như trọng số từng loại điểm từ cao xuống thấp.&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;" vertex="1" parent="1">
+          <mxGeometry x="415" y="30" width="290" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_qfQpiFz5pyAwzC_5YSm-6" value="Xử lí dữ liệu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="50" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_qfQpiFz5pyAwzC_5YSm-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_qfQpiFz5pyAwzC_5YSm-1" target="_qfQpiFz5pyAwzC_5YSm-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="225" as="sourcePoint" />
+            <mxPoint x="410" y="175" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_qfQpiFz5pyAwzC_5YSm-8" value="&#xa;Thông tin điểm số và dữ liệu học sinh được lưu trong cơ sở dữ liệu để đảm bảo tính bảo mật và dễ dàng truy xuất&#xa;&#xa;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="415" y="410" width="290" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_qfQpiFz5pyAwzC_5YSm-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_qfQpiFz5pyAwzC_5YSm-5" target="_qfQpiFz5pyAwzC_5YSm-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="390" as="sourcePoint" />
+            <mxPoint x="590" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_qfQpiFz5pyAwzC_5YSm-10" value="lưu trữ&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="430" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_qfQpiFz5pyAwzC_5YSm-11" value="&#xa;Hệ thống hiển thị bảng điểm cho giáo viên, học sinh và phụ huynh. Có thể xuất ra file PDF hoặc in phiếu báo điểm&#xa;&#xa;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="420" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_qfQpiFz5pyAwzC_5YSm-12" value="Xuất kết quả" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_qfQpiFz5pyAwzC_5YSm-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.009;exitY=0.529;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_qfQpiFz5pyAwzC_5YSm-8" target="_qfQpiFz5pyAwzC_5YSm-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="585" as="sourcePoint" />
+            <mxPoint x="400" y="535" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
